@@ -1,0 +1,7 @@
+tracking_code.snippets:
+  path: '/tracking_code/snippets'
+  defaults:
+    _controller: '\Drupal\tracking_code\Controller\TrackingCodeController::getSnippets'
+    _title: 'Snippets'
+  requirements:
+    _permission: 'administer site configuration'
