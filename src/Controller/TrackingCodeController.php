@@ -57,6 +57,6 @@ class TrackingCodeController extends ControllerBase {
         ],
         ] ,
     ];
-    return build;
+    return $build;
   }
 }
